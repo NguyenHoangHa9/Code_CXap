@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ex2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Lion lion = new Lion(130, "Lion ");
+            Tiger tiger = new Tiger(200, "Tiger ");
+
+            lion.Show();
+            tiger.Show();
+        }
+    }
+}
